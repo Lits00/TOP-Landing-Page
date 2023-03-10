@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    flex-direction: column;
+}
+
+.borderline{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+/* similar properties */
+body, .nav, ul, .first, .right, .information, .modal{
+    display: flex;
+}
+
+.header, .one, .footer{
+    background-color: #1F2937;
+}
+
+.button-one, .modal, .button-modal{
+    background-color: #3882F6;
+}
+
+h1, h3, h4, .p-one, .button-one, .p-four, .button-modal, .footer{
+    color: #F9FAF8;
+}
+
+/* .one, .two, .three, .four{
+    height: 22.5vh;
+} */
+/* similar properties */
+
+/* Header */
+.header{
+    padding: 16px;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Header */
+
+/* one */
+.one{
+    padding: 3vh;
+}
+
+h1, .p-one{
+    width: 30vw;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.button-one{
+    border-radius: 5px;
+    border-style: none;
+    padding: 4px 16px;
+    margin: 8px 0;
+}
+
+.right{
+    background-color: gray;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* two */
+.second{
+    text-align: center;
+    padding: 1.5vh;
+}
+
+.information{
+    width: 38vw;
+    margin: 1.08vh auto;
+    gap: 32px;
+}
+
+.image{
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    height: 10vh;
+    width: 6vw;
+    margin: .6vh auto;
+}
+
+/* three */
+.three{
+    background-color: #E5E7EB;
+}
+
+.p-three{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 44vw;
+    margin: 0 auto;
+    padding: 2vh;
+}
+
+span{
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* four */
+.four{
+    padding: 5vh;
+}
+
+.modal{
+    border-radius: 5px;
+    padding: 30px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-modal{
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 0 30px;
+    height: 25px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 2vh;
+}
